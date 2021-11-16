@@ -6,6 +6,7 @@ $(".clickable").on('click', () => {
 $("button#green").on('click', () => {
   $("body").removeClass();
   $("body").addClass("green-background");
+  // $("body").css("background-color", "green"); // this method also works but it mixes our concerns causing logical errors
 });
 
 $("button#yellow").on('click', () => {
